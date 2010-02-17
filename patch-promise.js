@@ -1,6 +1,6 @@
 /**
- * A monkey patch for Node to achieve CommonJS promise compliance, but adding
- * a conformant "then" function.
+ * A minimal monkey patch for Node to achieve CommonJS promise compliance, by 
+ * adding a conformant "then" function.
  * 
  * The "then" function supports chaining (it returns a promise that is given the result
  * of the callback computation), correct functional data flow  (computations affect 
